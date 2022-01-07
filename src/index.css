@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #e5e5e5;
 }
 
 * {
@@ -26,6 +27,7 @@ code {
     border-radius: 15px;
     padding: 10px;
     margin: 20px;
+    background-color: #fff;
 }
 
 button {
@@ -35,5 +37,6 @@ button {
     background-color: #4db5e7;
     color: white;
     border: unset;
+    cursor: pointer;
 }
 

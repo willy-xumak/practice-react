@@ -1,16 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Todo from './components/Todo';
 
 function App() {
-  return <div>
-      <h1>My To-do's</h1>
-      <div class='card' >
-          <h2>Title!</h2>
-          <div>
-            <button>Delete</button>
-          </div>
-      </div>
-  </div>;
+	return (
+    <div>
+			<h1>My To-do's</h1>
+      <Todo/>
+      <Todo/>
+      <Todo/>
+    </div>
+  );
 }
 
-export default App;
+export default App
