@@ -12,6 +12,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
+nav, li, ul, a {
+    text-decoration: none;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -68,4 +73,35 @@ button {
 
 .hidden {
     display: none;
+}
+
+header, nav, ul ,li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #408acb;
+}
+
+header {
+    justify-content: space-around;
+}
+
+header > div {
+    color: #fff;
+    margin: 0 30px 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+li {
+    padding: 15px 10px;
+}
+
+li > a {
+    color: #fff;
+}
+
+li:hover {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 12px;
 }
