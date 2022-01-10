@@ -1,0 +1,31 @@
+
+header, header nav, header ul ,header li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #408acb;
+}
+
+header {
+    justify-content: space-around;
+}
+
+header > div {
+    color: #fff;
+    margin: 0 30px 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+header li {
+    padding: 15px 10px;
+}
+
+header li > a {
+    color: #fff;
+}
+
+header li:hover {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 12px;
+}

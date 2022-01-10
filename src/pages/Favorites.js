@@ -1,5 +1,10 @@
 function FavortiesPage () {
-    return <div>FavortiesPage</div>
+    return <div>FavortiesPage
+
+        <ul>
+            <li>holka</li>
+        </ul>
+    </div>
 }
 
 export default FavortiesPage;
