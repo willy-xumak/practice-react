@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #e5e5e5;
+  background-color: #e7f6ff42;
 }
 
 * {
@@ -73,4 +73,9 @@ button {
 
 .hidden {
     display: none;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 20px 0;
 }

@@ -6,7 +6,7 @@ header, header nav, header ul ,header li {
     background-color: #408acb;
 }
 
-header {
+header, .header {
     justify-content: space-around;
 }
 
