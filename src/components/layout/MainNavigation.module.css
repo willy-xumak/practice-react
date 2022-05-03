@@ -18,14 +18,15 @@ header > div {
 }
 
 header li {
-    padding: 15px 10px;
+    
 }
 
 header li > a {
     color: #fff;
+    padding: 15px 10px;
 }
 
-header li:hover {
+header li a:hover {
     border-bottom: 3px solid #fff;
     padding-bottom: 12px;
 }
