@@ -7,11 +7,7 @@ import FavoritesContext from '../store/favorites-context';
 function AllMeetUpPage() {
   const [isLoading, setIsLoading] = useState(true);
   const [meetups, setMeetups] = useState([]);
-  const favoritesCtx = useContext(FavoritesContext);
 
-  const toggleFavoriteButton = (id) => {
-    console.log('text');
-  };
 
   useEffect(() => {
     setIsLoading(true);
@@ -65,7 +61,7 @@ function AllMeetUpPage() {
       
       <Button
         primary
-        label="Click me!"
+        label="its me again!"
         size="large"
         backgroundColor="black"
         onClick={() => console.log('hola')}
